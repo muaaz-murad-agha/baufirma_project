@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Awesome  -->
+     
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css" >
+    <title>Bauer</title>
+    <link rel="stylesheet" href="css/disgen.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" >
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Start settings Box -->
+    <div class="settings-box">
+         <div class="control">
+            <i class=" fa-solid fa-gear"></i>
+         </div>
+        <div class="settings-container">
+         <div class="option-box">
+            <h4>Color</h4>
+            <ul class="color-list">
+                <li class="active" data-color ="red"></li>
+                <li data-color = "#d9132e"></li>
+                <li data-color = "#1f3596"></li>
+                <li data-color = "#970c0c"></li>
+                <li data-color = "#333"></li>
+            </ul>
+        </div>
+        <div class="option-box">
+            <h4>Random Background</h4>
+            <div class="random-background">
+                <Span class="yes active" data-background="yes">yes</Span>
+                <span class="no" data-background="no">No</span>
+            </div>
+        </div>
+        <div class="option-box">
+            <h4>Show Bullets</h4>
+            <div class="bullets-option">
+                <Span class="yes active" data-dispaly="show">yes</Span>
+                <span class="no" data-dispaly="hide">No</span>
+            </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+        </div>
+   </div>
+    <!-- ENd settings Box -->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section =".about-us">
+            <div class="tooltip" >About Us</div>
+        </div>
+        <div class="bullet" data-section =".skills">
+            <div class="tooltip" >Our Slills</div>
+        </div>
+        <div class="bullet" data-section =".gallery">
+            <div class="tooltip" >Our Gallery</div>
+        </div>
+        <div class="bullet" data-section =".timeline">
+            <div class="tooltip" >TimeLine</div>
+        </div>
+        <div class="bullet" data-section =".our-features">
+            <div class="tooltip" >Features</div>
+        </div>
+        <div class="bullet" data-section =".testimonil">
+            <div class="tooltip" >Testimonil</div>
+        </div>
+    </div>
+    <!-- End nav bullets -->
+    <!--Start landing Box -->
+    <div  id ="landing-page" class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+         <div class="header-area">
+            <div class="logo">Bauer</div>
+            <i class="fas fa-bars toggle-menu"></i>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a class ="active"href="#"  data-section=".about">About</a></li>
+                        <li><a href="#" data-section=".skills" >Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".our-features">Features</a></li>
+                        <li><a href="#" data-section=".testimonil">Testimonials</a></li>
+                    </ul>
+                </div>
+         </div>
+         </div>
+         <div class="intro-text">
+            <h3>Wir Bauen für Sie um, aber <span> Keine</span> Stau</h3>
+            <p>Lorem ipsum dolor sit amet  recusandae.illo vel voluptates! consequuntur reiciendis.</p>
+         </div>
+    </div>
+                <!-- about us -->
+        <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About us</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non minima veritatis unde. Veritatis vero laborum fuga sunt molestiae similique nisi, officia ipsam fugiat, perspiciatis ea dolor reiciendis consequatur odit.</P>
+                </div>
+                <div class="img-box">
+                <img src="imgs/about-us.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <!-- End about us -->
+        <!-- Start our-skills -->
+    <div class="skills">
+        <div class="container">
+                <h2>my skill</h2>
+                <div class="skill-box">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-progress"> 
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-progress"> 
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">JS</div>
+                    <div class="skill-progress"> 
+                        <span data-progress="80%"></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <!-- Endour-skills -->
+        <!-- start gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="/imgs/01.jpg" alt="Image One">
+                <img src="/imgs/02.jpg" alt="Image Two">
+                <img src="/imgs/03.jpg" alt="Image Three">
+                <img src="/imgs/04.jpg" alt="Image Four">
+                <img src="/imgs/05.jpg" alt="Image Five">
+                <img src="/imgs/06.jpg" alt="">
+                <img src="/imgs/07.jpg" alt="">
+                <img src="/imgs/08.jpg" alt="">
+                <img src="/imgs/09.jpg" alt="">
+                <img src="/imgs/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+        <!-- End gallery -->
+        <!-- Start Time line -->
+        <div class="timeline">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2018</div>
+                        <div class="left">
+                            <div class="content">
+                             <h3>texting Heading</h3>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quos facere id illum laboriosam sit, beatae odio amet, voluptas reprehenderit culpa? Consectetur, 
+                                doloribus nostrum. A accusantium dignissimos sit totam quo.</p>
+
+                        </div>
+                    </div>
+                    <!-- HEIR MACHEN DIE Seite leer -->
+                    <div class="clearfix"></div>
+                      <div class="right">
+                        <div class="content">
+                            <h3>texting Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quos facere id illum laboriosam sit, beatae odio amet, voluptas reprehenderit culpa? Consectetur, 
+                                doloribus nostrum. A accusantium dignissimos sit totam quo.</p>
+
+                        </div>
+                    </div>
+                    <div class="clearfix"></div
+                </div>
+                  <div class="timeline-content">
+                    <div class="year">2016</div>
+                        <div class="left">
+                            <div class="content">
+                             <h3>texting Heading</h3>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quos facere id illum laboriosam sit, beatae odio amet, voluptas reprehenderit culpa? Consectetur, 
+                                doloribus nostrum. A accusantium dignissimos sit totam quo.</p>
+
+                        </div>
+                    </div>
+                    <!-- HEIR MACHEN DIE Seite leer -->
+                    <div class="clearfix"></div>
+                      <div class="right">
+                        <div class="content">
+                            <h3>texting Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quos facere id illum laboriosam sit, beatae odio amet, voluptas reprehenderit culpa? Consectetur, 
+                                doloribus nostrum. A accusantium dignissimos sit totam quo.</p>
+
+                        </div>
+                    </div>
+                    <div class="clearfix"></div
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- End Time line -->
+        <!-- Strat Features -->
+        <div class="our-features">
+            <h2>Our Features</h2>
+            <div class="container">
+                <div class="features-box">
+                    <div class="image">
+                    <img src="/imgs/01f.jpg" alt="">
+                    </div>
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit amet  deserunt rem distinctio natus vel at.</p>
+                </div>
+                <div class="features-box">
+                     <div class="image">
+                    <img src="/imgs/02f.jpg" alt="">
+                     </div>
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit amet  deserunt rem distinctio natus vel at.</p>
+                </div>
+                <div class="features-box">
+                    <div class="image">
+                    <img src="/imgs/03f.jpg" alt="">
+                     </div>
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit amet  deserunt rem distinctio natus vel at.</p>
+                </div>
+                <div class="features-box">
+                    <div class="image">
+                    <img src="/imgs/04f.jpg" alt="">
+                     </div>
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit amet  deserunt rem distinctio natus vel at.</p>
+                </div>
+                <div class="features-box">
+                    <div class="image">
+                    <img src="/imgs/05f.jpg" alt="">
+                     </div>
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit amet  deserunt rem distinctio natus vel at.</p>
+                </div>
+                <div class="features-box">
+                    <div class="image">
+                    <img src="/imgs/06f.jpg" alt="">
+                     </div>
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit amet  deserunt rem distinctio natus vel at.</p>
+                </div>
+            </div>
+        </div> 
+        <!-- End Features -->
+        <!-- Start Testimonil -->
+    <div class="testimonil"> 
+        <h2>Testimonials</h2>
+        <div class="content">
+              <div class="testimonil-box">
+                <p>Lorem ipsum dolor, Nesciunt quasi est laborum iste. Tempore officiis enim quis quae consequuntur impedit. vitae earum ab sint sed.</p>
+                <div class="unter">
+                     <img src="/imgs/testmaint.jpg" alt="">
+                    <div class="text-box">
+                     <h4>Muaaz Murad Agha</h4>
+                     <p>CeD Ac Company</p>
+                    </div>
+                </div>
+            </div>   
+              <div class="testimonil-box">
+                <p>Lorem ipsum dolor, Nesciunt quasi est laborum iste. Tempore officiis enim quis quae consequuntur impedit. vitae earum ab sint sed.</p>
+                <div class="unter">
+                     <!-- <img src="https://placehold.it/80/000" alt=""> -->
+                     <img src="/imgs/testmaint.jpg" alt="">
+                    <div class="text-box">
+                     <h4>Muaaz Murad Agha</h4>
+                     <p>CeD Ac Company</p>
+                    </div>
+                </div>
+            </div> 
+              <div class="testimonil-box">
+                <p>Lorem ipsum dolor, Nesciunt quasi est laborum iste. Tempore officiis enim quis quae consequuntur impedit. vitae earum ab sint sed.</p>
+                <div class="unter">
+                     <!-- <img src="https://placehold.it/80/000/EEE" alt=""> -->
+                    <img src="/imgs/testmaint.jpg" alt="">
+                     <div class="text-box">
+                     <h4>Muaaz Murad Agha</h4>
+                     <p>CeD Ac Company</p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+        <!-- End Testimonil -->
+        <!-- Start contact us  -->
+        <div class="contact">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>cotact us</h2>
+                <form action="">
+                    <div class="left-form">
+                        <input type="text" name="follName" id="follName" placeholder="Your Name">
+                        <input type="phone" name="phone" id="" placeholder="Your Phone" >
+                        <input type="email" name="email" id="" placeholder="Your Email" >
+                        <input type="subject" name="subject" id="" placeholder="Your Subject" >
+                    </div>
+                    <div class="right-form">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <input type="submit" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End contact us  -->
+        <!-- Start Footer -->
+    <div class="footer">
+        <h2>social contact</h2>
+      <div class="container">
+        <div class="box">
+          <h3>Murad Agha</h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
+          </p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">Important Link 1</a></li>
+            <li><a href="#">Important Link 2</a></li>
+            <li><a href="#">Important Link 3</a></li>
+            <li><a href="#">Important Link 4</a></li>
+            <li><a href="#">Important Link 5</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">Deutschland, Hannover, Gallery-ernst-August patz, 220</div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Öffnungszeit: From 10:00 To 18:00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+20123456789</span>
+              <span>+20198765432</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="imgs/gallery-01.png" alt="" />
+          <img src="imgs/gallery-02.png" alt="" />
+          <img src="imgs/gallery-03.jpg" alt="" />
+          <img src="imgs/gallery-04.png" alt="" />
+          <img src="imgs/gallery-05.jpg" alt="" />
+          <img src="imgs/gallery-06.png" alt="" />
+        </div>
+      </div>
+      <p class="copyright">Made With &lt;3 Murad Agha</p>
+    </div>
+    <!-- End Footer -->
+    </body>
+    <script src="js/disgen.js"></script>
+</body>
+</html>
